@@ -1,0 +1,25 @@
+2/22/17
+Tyler Simon
+Here is is, finally a GUI to the scheduler that also shows the liklihood of failure
+
+You need the SchedSim executable file in your local directory to run. This is the guy that does all of the work
+
+to run just type make, then ./schedSim.py
+
+I am sure there are some requirements needed like PyQt4, matplotlib, etc
+I used:
+pip install python-matplotlib-qt4
+pip install python-qt
+
+
+You can hover over the labels to get more info on what each field does.
+Issues:
+
+Don't enter too many jobs, keep it under 300, otherwise it takes too long, also the "Dynamic" schedule doesn't do anything now.
+
+Any and all feedback is great. 
+
+
+
+
+

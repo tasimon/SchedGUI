@@ -1,0 +1,30 @@
+#################################################
+Run complete for the FCFS schedule!
+Alpha(cores)	Beta(wait_t)	Gamma(run_t)	Avg_job_size	System_Size
+0.000000	    1.000000	    0.000000	       139.1	        512
+20 Jobs run in 1273 ticks, total wait time = 4815
+System Utilization = 86.42 percent
+Work/Tick (seconds) = 442.456
+#################################################
+ID	ARR_T	WAIT_T	RUN_T	CORES	EXP_F	CLASS
+0	1	746	101	8	8.39	SmlSht
+1	5	1	170	109	1.01	SmlSht
+2	7	1	163	230	1.01	LrgSht
+3	8	1	116	244	1.01	LrgSht
+4	8	590	228	226	3.59	LrgLng
+5	20	1	60	144	1.02	LrgSht
+6	20	1	73	48	1.01	SmlSht
+7	30	164	204	48	1.80	SmlLng
+8	31	27	121	100	1.22	SmlSht
+9	42	1	300	183	1.00	LrgLng
+10	52	1	53	51	1.02	SmlSht
+11	55	1	295	90	1.00	SmlLng
+12	56	1	223	239	1.00	LrgLng
+13	85	743	76	128	10.78	SmlSht
+14	92	659	181	26	4.64	SmlLng
+15	104	346	278	157	2.24	LrgLng
+16	108	100	6	21	17.67	SmlSht
+17	145	1	281	230	1.00	LrgLng
+18	193	1	266	255	1.00	LrgLng
+19	267	12	263	245	1.05	LrgLng
+Class_Averages(LL,LS,SL,SS)(0.0 1.0 0.0) 	1.6 	 1 	2.5 	5.9 	1273 	86.42
